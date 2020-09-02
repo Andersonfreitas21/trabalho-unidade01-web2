@@ -96,7 +96,7 @@ btnEnviar.addEventListener("click", (event) => {
   var inputMensagem = document.querySelector("#mensagem").value;
   if (inputNome || inputMensagem) {
     var txtNome = document.createTextNode(inputNome);
-    var separator = document.createTextNode(": ");
+    var separator = document.createTextNode(" : ");
     var txtMensagem = document.createTextNode(inputMensagem);
 
     var p = document.createElement("p");

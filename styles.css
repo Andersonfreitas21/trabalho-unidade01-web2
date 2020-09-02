@@ -87,8 +87,14 @@ h4 {
   font-size: 0.875rem;
 }
 p {
+  font-family: var(--ff-primary);
+  font-weight: bolder;
+  color: black;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  border: red 0ch;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -248,7 +254,7 @@ body {
 
 .bg-image
 {
-  background-image: url('./0_Cores.jpg');
+  background-image: url('./Cores.jpg');
 }
 
 .content{
@@ -259,8 +265,8 @@ body {
 .nome1 {
   position: absolute;
   top: 35%;
-  right: 35%;
-  left: 26%;
+  right: 26%;
+  left: 34%;
   /* opacity: 1; */
   font-weight: bolder;
   color: yellow;
@@ -275,39 +281,39 @@ body {
 
 #um {
   font-size: 55px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #dois {
   font-size: 60px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #tres {
   font-size: 65px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #quatro {
   font-size: 70px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #cinco {
   font-size: 75px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #seis {
   font-size: 70px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #sete {
   font-size: 70px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #oito {
   font-size: 60px;
-  margin: -5px;
+  margin-left: -20px;
 }
 #nove {
   font-size: 55px;
-  margin: -5px;
+  margin-left: -4%;
 }
 
 img {
@@ -387,7 +393,7 @@ padding: 10px;
   background-color: rgb(235, 235, 13);
   border: 1px solid;
   position: relative;
-  left: 130%;
+  left: 225%;
   
 }
 .retangulo4{
@@ -465,14 +471,13 @@ button:focus {
 }
 
 .button-creditos {
-  background-color: var(--clr-primary-1);
-  color: white;
+  background-color: rgb(223, 45, 45);
   border: 2px solidvar(--clr-primary-10);
 }
 
 .button-creditos:hover {
   background-color: var(--clr-primary-10);
-  color: black;
+  color: red;
   border: 2px solid var(--clr-primary-1);
 }
 .recado{
@@ -485,6 +490,8 @@ button:focus {
   justify-content: center;
   align-items: center;
   margin: 50px auto;
+  color: black;
+  
 }
 
 #nome {
@@ -509,7 +516,7 @@ button:focus {
 
 .enviar {
   color: white;
-  background: hsl(209, 61%, 16%);
+  background: rgb(223, 45, 45);
   border: 0 solid black;
   border-radius: 3px;
   padding: 5px 20px;
@@ -517,7 +524,7 @@ button:focus {
 
 .botao-excluir {
   color: white;
-  background: hsl(209, 61%, 16%);
+  background: rgb(223, 45, 45);
   border: 0 solid black;
   border-radius: 3px;
   margin-left: 20px;
@@ -532,10 +539,11 @@ button:focus {
 footer {
   background: transparent;
   padding: 5rem 1rem;
+  
 }
 
 footer p {
-  color: #fff;
+  color: black;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.25rem;
@@ -567,14 +575,15 @@ footer p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: red;
 }
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color: #555;
-  color: #fff;
+  background-color: red;
+  color: red;
   text-align: center;
   border-radius: 6px;
   padding: 10px 0;
@@ -583,6 +592,10 @@ footer p {
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
+}
+.popuptext {
+  font-weight: bolder;
+  color:black;
 }
 
 /* Popup arrow */
@@ -602,6 +615,7 @@ footer p {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
+
 }
 
 .popup-web {
@@ -656,6 +670,7 @@ form {
 }
 
 .form-group {
+  /* font-family: var(--ff-primary); */
   display: flex;
   width: 290px;
   margin-bottom: 10px;
@@ -677,3 +692,14 @@ form {
 .action > button:hover {
   opacity: 90%;
 }
+span .date{
+font-weight: bolder;
+color:black;
+}
+
+h3{
+  font-weight: bolder;
+  color:black;
+}
+
+
